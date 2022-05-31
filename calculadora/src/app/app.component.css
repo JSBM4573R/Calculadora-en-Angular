@@ -1,0 +1,32 @@
+.container{
+    margin-top: 100px;
+    max-width: 940px;
+    width: 90%;
+}
+
+.sumarValores{
+    width: 150px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; 
+}
+
+.resultado{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+}
+
+.container form  label {
+    padding: 10px ;
+    font-weight: bold;
+}
+
+.tittle h1{
+    font-size: 80px;
+}
+
+span{
+    margin: 0 5px;
+    font-weight: bold;
+}
