@@ -1,6 +1,7 @@
 # Calculadora
 
 Mini proyecto de calculadora en angular que permite sumar dos numeros enteros mostrando el resultado por pantalla.
+Se usa Two Way binding, Event Binding, interpolacion y un componente de clase.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
