@@ -15,9 +15,14 @@
             <input type="number" class="form-control" [(ngModel)]="number2" name="number2" placeholder="ingresa el primer digito">
           </div>
         </div>
-        <button class="btn btn-primary sumarValores" (click)="sumar()">Sumar</button>
+        <div class="buttons">
+          <button class="btn btn-primary funcion" (click)="sumar()">Sumar</button>
+          <button class="btn btn-primary funcion" (click)="restar()">Restar</button>
+          <button class="btn btn-primary funcion" (click)="dividir()">Dividir</button>
+          <button class="btn btn-primary funcion" (click)="multiplicar()">Multiplicar</button>
+        </div>
         <div class="resultado">
-          <p>El resultado de la suma es: </p> <span>{{resultado}}</span>
+          <p>{{text}}</p> <span>{{resultado}}</span>
         </div>
       </div>
     </form>
